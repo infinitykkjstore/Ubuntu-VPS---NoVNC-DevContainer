@@ -6,5 +6,5 @@
       ]
     }
   },
-  "postCreateCommand": "sudo chmod +x ./init-vnc-ngrok.sh && sudo sh ./init-vnc-ngrok.sh"
+  "postCreateCommand": "sudo chmod +x ./install.sh"
 }
