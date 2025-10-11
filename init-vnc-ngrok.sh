@@ -114,7 +114,6 @@ echo "Atualizando apt novamente"
 sudo apt update
 
 echo "Removendo firefox (se presente) e instalando firefox"
-sudo apt remove -y firefox || true
 sudo apt install -y firefox
 
 echo "Configurando repositório do cloudflared"
